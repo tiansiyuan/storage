@@ -9,3 +9,4 @@
 - EC：Erasure Coding，纠删码
 - smartctl: 硬盘监控和分析工具
 - storcli:  Storage Command Line Tool
+- [Purley](https://www.intel.com/content/www/us/en/design/products-and-solutions/processors-and-chipsets/purley/intel-xeon-scalable-processors.html)
