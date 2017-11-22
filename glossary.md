@@ -18,7 +18,7 @@
 
 - **storcli**: Storage Command Line Tool
 
-- [**Purley**](https://www.intel.com/content/www/us/en/design/products-and-solutions/processors-and-chipsets/purley/intel-xeon-scalable-processors.html)
+- [**Purley**](https://www.intel.com/content/www/us/en/design/products-and-solutions/processors-and-chipsets/purley/intel-xeon-scalable-processors.html): Intel CPU arch。
 
 - **SDS**: Software Defined Storage
 
@@ -26,7 +26,7 @@
 
 - **FUSE**: filesystem in user space，一个用户空间的文件系统框架，允许非特权用户建立功能完备的文件系统，而不需要重新编译内核。fuse 模块仅仅提供内核模块的入口，而本身的主要实现代码位于用户空间中。对于读写虚拟文件系统来讲，fuse 是个很好的选择。fuse 包含包含一个内核模块和一个用户空间守护进程，将大部分的 VFS 调用都委托一个专用的守护进程来处理。
 
-- **Openstack Swift**: 提供了弹性可伸缩、高可用的分布式对象存储服务，适合存储大规模非结构化数据。Swift 构筑在比较便宜的标准硬件存储基础设施之上，无需采用 RAID（磁盘冗余阵列），通过在软件层面引入一致性散列技术和数据冗余性，牺牲一定程度的数据一致性来达到高可用性和可伸缩性，支持多租户模式、容器和对象读写操作，适合解决互联网的应用场景下非结构化数据存储问题。
+- **OpenStack Swift**: 提供了弹性可伸缩、高可用的分布式对象存储服务，适合存储大规模非结构化数据。Swift 构筑在比较便宜的标准硬件存储基础设施之上，无需采用 RAID（磁盘冗余阵列），通过在软件层面引入一致性散列技术和数据冗余性，牺牲一定程度的数据一致性来达到高可用性和可伸缩性，支持多租户模式、容器和对象读写操作，适合解决互联网的应用场景下非结构化数据存储问题。
 
 - **Lustre**: 是HP，Intel，Cluster File System 公司联合美国能源部开发的 Linux 集群并行文件系统。该系统已推出 1.0 的发布版本，是第一个基于对象存储设备的，开源的并行文件系统。
 
