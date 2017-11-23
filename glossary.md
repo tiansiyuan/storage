@@ -76,3 +76,5 @@
 - **统一存储**: SAN 与 NAS 融合。
 
 - **mdadm**: mdadm程序是一个独立的程序，能完成所有的软件raid管理功能，主要有7种使用模式。
+
+- **iSCSI**：Internet Small Computer System Interface，发音为/ˈаɪskʌzi/，Internet小型计算机系统接口，又称为IP-SAN，是一种基于因特网及 SCSI-3 协议下的存储技术，由 IETF 提出，并于2003年2月11日成为正式的标准。
