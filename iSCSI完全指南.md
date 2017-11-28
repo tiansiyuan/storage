@@ -103,19 +103,21 @@ iSCSI最重要的就是能在成本上提出大幅改善的方案，也因此打
 
 3. 硬件iSCSI适配卡较贵
 
- 如果想要让整体效能有好的表现，那么就必须添置较贵的iSCSI HBA卡或稍贵的TOE(TCP Offload Engine，TCP卸载引擎)HBA卡，整体成本会因而大幅攀升。据Brocade指出，不论是FC HBA卡或FC交换机的价格都在逐步调降中，同时该公司会推出价格颇为低廉的FC交换机，如此一来，在寻求高效能的前提下，iSCSI的成本优势会相对减少。
-3. 硬件iSCSI适配卡较贵： 如果想要让整体效能有好的表现，那么就必须添置较贵的iSCSI HBA卡或稍贵的TOE(TCP Offload Engine，TCP卸载引擎)HBA卡，整体成本会因而大幅攀升。据Brocade指出，不论是FC HBA卡或FC交换机的价格都在逐步调降中，同时该公司会推出价格颇为低廉的FC交换机，如此一来，在寻求高效能的前提下，iSCSI的成本优势会相对减少。
-3. 硬件iSCSI适配卡较贵： 如果想要让整体效能有好的表现，那么就必须添置较贵的iSCSI HBA卡或稍贵的TOE(TCP Offload Engine，TCP卸载引擎)HBA卡，整体成本会因而大幅攀升。据Brocade指出，不论是FC HBA卡或FC交换机的价格都在逐步调降中，同时该公司会推出价格颇为低廉的FC交换机，如此一来，在寻求高效能的前提下，iSCSI的成本优势会相对减少。
-3. 硬件iSCSI适配卡较贵：如果想要让整体效能有好的表现，那么就必须添置较贵的iSCSI HBA卡或稍贵的TOE(TCP Offload Engine，TCP卸载引擎)HBA卡，整体成本会因而大幅攀升。据Brocade指出，不论是FC HBA卡或FC交换机的价格都在逐步调降中，同时该公司会推出价格颇为低廉的FC交换机，如此一来，在寻求高效能的前提下，iSCSI的成本优势会相对减少。
+   如果想要让整体效能有好的表现，那么就必须添置较贵的iSCSI HBA卡或稍贵的TOE(TCP Offload Engine，TCP卸载引擎)HBA卡，整体成本会因而大幅攀升。据Brocade指出，不论是FC HBA卡或FC交换机的价格都在逐步调降中，同时该公司会推出价格颇为低廉的FC交换机，如此一来，在寻求高效能的前提下，iSCSI的成本优势会相对减少。
 
-4. 支持的平台及软硬件仍少：虽然目前Windows、Linux、UNIX、Netware都已陆续推出软硬件的Initiator，但数量及完备性仍不足，尤其是版本特多的Linux，目前只有SuSE及Redhat有解决方案；其中，SuSE只有软件、Redhat只有硬件。此外，HP-UX及Novell Netware只有软件，SUN Solaris则只有硬件，而且一些平台上的设置十分复杂困难。换句话说，目前只有微软Windows平台具备最完备的支持性。但是目前业界及政府机构的数据中心，有相当数量是采用非Windows操作系统，再加上也有不少公司内部系统是属于多种操作系统环境，所以各平台解决方案的提出，仍是iSCSI急待解决的重要课题。
+4. 支持的平台及软硬件仍少
 
-5. 令人质疑的安全性：IP网络环境复杂，再加上懂IP的人相对的多，所以安全性也相对地令人质疑。
+   虽然目前Windows、Linux、UNIX、Netware都已陆续推出软硬件的Initiator，但数量及完备性仍不足，尤其是版本特多的Linux，目前只有SuSE及Redhat有解决方案；其中，SuSE只有软件、Redhat只有硬件。此外，HP-UX及Novell Netware只有软件，SUN Solaris则只有硬件，而且一些平台上的设置十分复杂困难。换句话说，目前只有微软Windows平台具备最完备的支持性。但是目前业界及政府机构的数据中心，有相当数量是采用非Windows操作系统，再加上也有不少公司内部系统是属于多种操作系统环境，所以各平台解决方案的提出，仍是iSCSI急待解决的重要课题。
 
-6. 无法兼顾效能及跨平台性：前面已提到iSCSI Initiator可分为三种，亦即软件Initiator驱动程序、硬件的TOE HBA卡及iSCSI HBA卡。就效能而言，Initiator驱动程序最差、TOE居中、iSCSI HBA卡最佳。但是iSCSI HBA只能走iSCSI协议，而无法透过NFS(Network File System，SUN制定)或CIFS(Common Internet File System，微软制定)等档案系统协议与应用服务器沟通。但Initiator驱动程序及TOE则同时支持iSCSI、NFS及CIFS三种协议。
+5. 令人质疑的安全性
+
+   IP网络环境复杂，再加上懂IP的人相对的多，所以安全性也相对地令人质疑。
+
+6. 无法兼顾效能及跨平台性
+
+   前面已提到iSCSI Initiator可分为三种，亦即软件Initiator驱动程序、硬件的TOE HBA卡及iSCSI HBA卡。就效能而言，Initiator驱动程序最差、TOE居中、iSCSI HBA卡最佳。但是iSCSI HBA只能走iSCSI协议，而无法透过NFS(Network File System，SUN制定)或CIFS(Common Internet File System，微软制定)等档案系统协议与应用服务器沟通。但Initiator驱动程序及TOE则同时支持iSCSI、NFS及CIFS三种协议。
 
 **iSCSI、SAN及NAS大比拼**
-
 
 一般来说，企业在面临iSCSI SAN存储解决方案时，多半喜欢拿FC SAN及NAS与其做一番比较。在此先就FC与iSCSI做一比较，基本两者同属走块协议的SAN架构，只不过前者透过FC，后者藉由IP传输数据罢了，而两者在管理及应用上也大同小异，其间只不过优劣好坏的差异。
 
@@ -148,7 +150,7 @@ iSCSI市场现状剖析
 
 虽然iSCSI已正式标准化，但不一定代表从此就能开花结果，毕竟iSCSI是否能在企业存储市场站稳脚步，仍需看厂商本身的参与态度及开发意愿。没有厂商会对未知的领域投下无谓的投资及心力，而这也是厂商面对iSCSI时驻足观望的原因。
 
-WinTel的重量级支援
+**WinTel的重量级支援**
 
 若这个时候一些大厂愿意站出来登高一呼的话，厂商里足观望的僵局就能被打破。在iSCSI正式标准化之后不久，微软十分看好iSCSI的发展，毅然决然地挺身扮演推动者的关键角色，在2003年2月间，也就是几乎在SNIA协会通过iSCSI标准的同时，便提供iSCSI Beta版驱动程序的在线下载服务。
 
@@ -161,34 +163,34 @@ WinTel的重量级支援
 另一个重量级的大厂，也就是身为WinTel王国的另一支柱Intel，也早在2003年2月即推出型号为PRO/1000T IP的TOE(TCE Offload Engine)HBA适配卡。比起微软或其它操作系统厂商提供的iSCSI Initiator软件，Intel PRO/1000T IP适配卡提供了TCP卸载(Offload)的功能，可有效降低CPU的占用率，从而使整体效能有所提升。总而言之，iSCSI有了WinTel两大支柱的重量级支持，势必会带动整个业界的正面回响，并在中小企业存储市场蔚成一股新兴势力。
 
 
-支持尚未全面 普及仍需努力
+**支持尚未全面 普及仍需努力**
 　　
 不过，精业公司却认为，目前市面上的信息中心及各企业的网管单位所采用的操作系统，并非完全局限于Windows系统，反而是充斥着Unix、Linux、SUN Solaris等林林总总的各种操作系统，换句话说，Windows只不过是众多操作系统中的一个罢了。更重要的是，其它操作系统对iSCSI的支持，并没有像Windows如此完备，其中不是只有软件驱动程序，就是只有硬件适配卡的提供，甚至也有完全没任何解决方案的平台。所以虽然微软全面支持iSCSI，但不表示整个市场都已有iSCSI解决方案。
 　　
 就整体趋势而言，市场上对iSCSI的支持是不断地在增加之中的。其中，在Linux方面，已有支持RedHat的适配卡，而SuSE也已有Initiator软件的支持。在Unix方面，除了IBM AIX早有支持外，HP-UX也有Initiator软件。至于Sun Solaris则软硬件的支持皆有，Novell Netware 6.5也已提供Initiator软件。最近，Cisco也推出了针对SUN专用的Initiator软件，接下来不久，该公司也会推出支持HP的Initiator软件。
 　　
-代表性厂商及代表性方案
+**代表性厂商及代表性方案**
 　　
 目前市面上，除了各类操作系统的Initiator软件之外，市面上已有愈来愈多厂商推出各种各类的iSCSI相关产品。以下就以iSCSI SAN网络中的组成要件——iSCSI适配卡、iSCSI交换机、iSCSI 存储服务器、iSCSI存储设备、iSCSI 桥接器及iSCSI网关来做逐一的剖析及介绍。
 　　
-一、iSCSI适配卡
+1. iSCSI适配卡
 　　
 iSCSI适配卡大致分成两类，一为TOE HBA卡，一为iSCSI HBA卡，前者价格较便宜，后者效能极佳，但价格非常昂贵。代表性的厂商有Adaptec、Alacritech、Intel、LSI、Qlogic等，其中Intel专注于TOE HBA卡的开发。
 
 Alacritech iSCSI HBA SES 1001.jpg
 
-二、iSCSI交换机
+2. iSCSI交换机
 
 一般来说，在iSCSI SAN的网络架构中，只要用一般Gigabit以太网络交换机就可以运作。但目前已有全新iSCSI交换机的推出，代表性厂商有Cisco、McData、Sanrad(V-Switch)等。其中，Cisco更是这方面的先驱，早在2001年之际，该公司即联合IBM共同推出全球最早的iSCSI解决方案，当时Cisco即推出iSCSI路由器——SN5420。
 
-三、iSCSI存储服务器
+3. iSCSI存储服务器
 
 在iSCSI 存储服务器方面，不但历史最久远，而且代表性的厂商颇多，较具代表性的有IBM、NetApp、EMC、微软、飞康国际及DataCore(SANmelody)等。这方面的开山祖师当推IBM莫属，早在2001年，IBM即推出全球第一台的iSCSI存储服务器——IP Storage 200i，但由于当时的iSCSI尚未标准化，所以业界对该产品及标准的支持性及接受度都非常低，事情发展到最后，就是这只一向飞得太快、太远的大飞象，不得不黯然暂离iSCSI的市场。不过如今，IBM又重回iSCSI的怀抱，并推出了全新产品——TotalStorage DS300。
 
 向以NAS方案著称于世的NetApp(Network Appliance)早在2003年，iSCSI标准通过之际，即推出支持iSCSI的文件服务器，目前NetApp的代表性产品为F800系列及FAS900系列Server。此外，EMC也在Symmetrix DMX系列方案及新款EMC CELERRA NAS系统中开始支持iSCSI标准。
 　≈劣谖⑷碓谡夥矫妫浠瓤伤滴奕四艿校С值牟妨绽怕浚╓SS 2003及Exchange Server 2003。其中WSS 2003同时支持NAS及iSCSI，不少厂商藉此与微软合作，推出基于WSS 2003的存储服务器，例如飞康国际(FalconStor)、技嘉及广达等公司都有这方面的iSCSI产品推出。
 
-四、iSCSI存储设备
+4. iSCSI存储设备
 
 目前最常见的iSCSI存储设备首推磁盘阵列及磁带库。前者的代表性厂商有Adaptec(iSA1500)、HDS(Thunder 9500)、乔鼎信息(Promise VTrak 15200)、建联科技(Raidsys 15200)及普安科技等。
 
@@ -202,11 +204,11 @@ Alacritech iSCSI HBA SES 1001.jpg
 
 Dell EMC AX100i
 
-五、iSCSI桥接器
+5. iSCSI桥接器
 
 也就是将一般的SCSI设备对iSCSI的转换器，其代表性厂商为ATTO，目前的产品为iPBridge 2500。
 
-六、iSCSI网关
+6. iSCSI网关
 
 iSCSI网关可做为光纤通道协议与iSCSI协议之间的桥梁，目前代表性厂商为博科通讯(Brocade)和McDATA。
 
@@ -230,7 +232,7 @@ F. iSCSI网关
 
 在此要强调的是，并非以上所有的iSCSI接口组件都要购齐，才能建置iSCSI SAN，而应该是对企业自身的现阶段需求、预算成本、现有环境及配备做综合性的搭配考虑。接下来仅就成本、效能及新旧搭配等因素提供几种方案，供读者们参考。
 
-方案一 a+b+d + E(超经济方案)
+**方案一 a+b+d + E(超经济方案)**
 
 优点：这应该是最经济实惠的iSCSI-SAN方案，因为只要买iSCSI 桥接器就好。值得一提的是公司只要用既有的网卡及交换机即可，完全不用再添购任何配备，就可以构建一个iSCSI-SAN。
 
@@ -240,7 +242,7 @@ F. iSCSI网关
 
 注意事项:：必须要下载免费的iSCSI Initiator驱动程序，才可以将一般Gigabit网卡仿真成iSCSI Initiator。然后再透过iSCSI桥接器将一般SCSI接口的存储配备仿真成iSCSI Target，如此就形成一个iSCSI-SAN。
 
-方案二 a+b+C+D(次经济方案)
+**方案二 a+b+C+D(次经济方案)**
 
 优点：网络卡及交换机皆可用现成的，只要购买iSCSI存储服务器及iSCSI存储设备即可，而市面上多半都将iSCSI存储服务器及存储设备搭成一个方案销售。例如技嘉、广达推出的WSS 2003存储服务器，Promise VTrak 15200搭配DataCore SANmelody的方案都是常见的销售模式。
 
@@ -250,7 +252,7 @@ F. iSCSI网关
 
 注意事项:：必须要下载免费的iSCSI Initiator驱动程序。
 
-方案三 A+b+C+D(高性能方案)
+**方案三 A+b+C+D(高性能方案)**
 
 优点：性能好，由于采用iSCSI适配卡，所以性能远比iSCSI Initiator驱动程序来得好。
 
@@ -260,7 +262,7 @@ F. iSCSI网关
 
 注意事项:：iSCSI适配卡分为较便宜性能也稍逊的TOE HBA卡，以及高效能但较贵的iSCSI HBA卡，但后者却只能走iSCSI协议，而无法透过NFS或CIFS等文件系统协议与应用服务器沟通。反而TOE HBA卡iSCSI、NFS及CIFS协议都支持，所以公司需视自身的需求及成本等因素来加以选择。
 
-方案四 A+B+C+D(超高性能方案)
+**方案四 A+B+C+D(超高性能方案)**
 
 优点：性能最佳，同时市面上一些iSCSI交换机还可同时内建FC、Gigabit Ethernet、iSCSI等多种接口端口，应用上还提供了存储虚拟化等高端功能。所以不论是性能、功能及应用上都颇有看头。
 
@@ -270,7 +272,7 @@ F. iSCSI网关
 
 注意事项：同上。
 
-方案五 Only F(iSCSI + FC SAN整合方案)
+**方案五 Only F(iSCSI + FC SAN整合方案)**
 
 优点：可以连结iSCSI及FC两个不同协议的SAN孤岛。也可以透过iSCSI协议，让两个距离很远的FC SAN孤岛相互连结，让FC SAN也可以享受超远距传输的功能，而勿需建置更为昂贵的FCIP连结方案。
 
@@ -279,26 +281,25 @@ F. iSCSI网关
 备注：基本上，方案5不能视为初次构建iSCSI SAN的参考案例，而只是透过iSCSI技术，解决公司既有iSCSI SAN及FC SAN的互连及整合需求。
 在谈过了iSCSI的技术趋势、优缺点特性、业界支持状况及构建方案等议题后，本单元将与读者一同探讨采购iSCSI配备所应注意的环节及重点，以俾提供读者采购iSCSI配备及建置iSCSI SAN的一个参考依据。以下兹分成效能及成本、安全性、可扩充性、兼容性、应用及功能等5大基本采购原则来做讨论。
 
-性能及成本
+**性能及成本**
 
 就目前而言，iSCSI SAN在性能及成本上的高低与否，最主要的关键就在于ASIC芯片上。相对于便宜又大碗的Initiator驱动程序而言，价格不便宜的iSCSI ASIC却最能符合性能及速度上的需求，例如制造业或金融业的数据库，就需要较高的速度来运作，这时候采用内建ASIC芯片的iSCSI适配卡会是最佳选择。
 
 一般来说，随着ASIC芯片的有无，以及等级的高低，目前iSCSI Initiator可分为以下三种：
 
-1. iSCSI HBA卡：
-
+**1. iSCSI HBA卡：**
 
 所谓iSCSI HBA卡就是采用内建SCSI指令及TOE引擎的ASIC芯片的适配卡，在三种iSCSI Initiator中，价格最贵，但性能最佳。目前价格已由一开始的1000美金，下降跌至500美元。对于有高效能应用需求的企业，或是公司内部主机CPU在1GHz以下者，最好采用iSCSI HBA卡，如此才能获得最好的性能。
 
 NetApp专家特别强调，SCSI HBA只能走iSCSI协议，而无法透过NFS或CIFS等文件系统协议与应用服务器沟通。
 
-2. iSCSI TOE卡：
+**2. iSCSI TOE卡：**
 
 亦即只有内建TOE引擎的ASIC芯片适配卡，由于SCSI指令仍以软件方式运作，所以仍会吃掉些许的CPU资源。在三种iSCSI Initiator中，价格比iSCSI HBA便宜，但比Initiator 驱动程序贵，性能也居于两者之间。目前市面上Intel的TOE HBA仍要价高达150美金。
 
 但在各协议的支持上，TOE HBA卡可以同时支持iSCSI、NFS及CIFS协议
 
-3.iSCSI Initiator驱动程序
+**3. iSCSI Initiator 驱动程序**
 
 目前不论是Microsoft Windows、IBM AIX、HP-UX、Linux、Novell Netware等各家操作系统，皆已陆续提供这方面的服务，其中以微软最为积极，也最全面。在价格上，比起前两种方案，远为低廉，甚至完全免费(例如微软)。但由于Initiator驱动程序工作时会耗费大量的CPU使用率及系统资源，所以性能最差。
 
@@ -306,15 +307,15 @@ NetApp专家特别强调，SCSI HBA只能走iSCSI协议，而无法透过NFS或C
 　　
 由于现阶段iSCSI的管理软件仍然不多，所以比起FC SAN，所能提供的应用及功能相对地较不完备，一旦应用及功能增加，管理性能自然大大提升。微软的存储管理平台——Windows Storage Server 2003似乎成为了众所期望的解决之道。未来，在微软提供的标准平台之下，可以包容各家不同应用功能的管理软件，如此一来，不但对iSCSI应用层面的推广有极大的帮助，同时集中化的控管、On Demand的需求调整等功能也可以有效降低管理维护成本，并促进管理效能的提升。
 　　
-安全性
+**安全性**
 
 在安全性方面，目前iSCSI已支持HA(High Available，高可用性)及冗余等功能，不但可以避免因为单调故障所导致的系统停机，可以在不关机、视需求(On Demand)的情况下调整指派存储空间。更重要的是，还提供不同等级的系统停机时间(Down-Time)，此即业界俗称的几个9安全标准，藉由不同等级严格要求一年停机时不超过一定时间(如一年不超过1小时，或以99.999%等数字来划分等级)，当然等级愈高，价格也愈贵。此外，在数据保护机制上，也要注意产品是否提供快照、远距备份及灾难复原等功能。
 
-可扩充性
+**可扩充性**
 
 另一个要注意的重点就是，存储应用管理软件或存储配备的可扩充性，包括存储配备的容量是否可以在不关机的条件下，机动调整扩充，以及iSCSI相关硬件的扩充性，例如配备上的接口，是否支持由Giga升级到10G的预设功能。
 
-兼容性
+**兼容性**
 
 所谓兼容性，就是指现有环境是否可以与iSCSI标准及配备兼容，这可以分成现有操作系统、外围设备及网络来探讨。
 
@@ -324,7 +325,7 @@ NetApp专家特别强调，SCSI HBA只能走iSCSI协议，而无法透过NFS或C
 
 如果在构建iSCSI SAN之前，公司内部已有其它SCSI存储设备、NAS或FC SAN，也必须考虑iSCSI与这些既有配备的整合，以扩充应用的层面及整体效益。就公司既有SCSI存储配备，可通过iSCSI桥接器来做整合；就NAS而言，如今市面上已有许多NAS及iSCSI的整合方案(例如NetApp)；在iSCSI与FC SAN的整合上，可以透过iSCSI网关(如Brocade或McDATA产品)来完成。
 
-应用及功能
+**应用及功能**
 
 至于iSCSI SAN的应用及功能，通常要视管理软件所提供的应用功能而定。通常管理软件可分为一般存储配备所附的管理软件及架构性管理软件，前者提供较简单、阳春的存储功能；后者则能提供许多强大进阶的存储应用功能。
 
