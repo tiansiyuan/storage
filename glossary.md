@@ -75,7 +75,7 @@
 
 - **统一存储**: 以数据库为代表的结构化数据一般需要块类型存储系统，通过 SAN 网络。而非架构化数据(如视频文件、图像)往往需要 NAS 的文件存储服务，通过 IP 网络。统一存储可以同时支持NAS和SAN的存储接口，而不需要分离的两套系统。更重要的是，后台的存储资源是统一的，存储虚拟化功能可以按需在SAN和NAS之间灵活调配空间、性能资源。
 
-- **mdadm**: mdadm程序是一个独立的程序，能完成所有的软件raid管理功能，主要有7种使用模式。在linux系统中目前以MD(Multiple Devices)虚拟块设备的方式实现软件 RAID，利用多个底层的块设备虚拟出一个新的虚拟设备，并且利用条带化(stripping)技术将数据块均匀分布到多个磁盘上来提高虚拟设备的读写性能，利用不同的数据冗祭算法来保护用户数据不会因为某个块设备的故障而完全丢失，而且还能在设备被替换后将丢失的数据恢复到新的设备上。目前 MD 支持linear, multipath, raid0(stripping), raid1(mirror), raid4, raid5, raid6, raid10 等不同的冗余级别和级成方式，当然也能支持多个 RAID 陈列的层叠组成raid1 0,raid5 1 等类型的陈列。
+- **mdadm**: mdadm 程序是一个独立的程序，能完成所有的软件 RAID 管理功能，主要有 7 种使用模式。在 Linux 系统中目前以 MD(Multiple Devices) 虚拟块设备的方式实现软件 RAID，利用多个底层的块设备虚拟出一个新的虚拟设备，并且利用条带化 (stripping) 技术将数据块均匀分布到多个磁盘上来提高虚拟设备的读写性能，利用不同的数据冗祭算法来保护用户数据不会因为某个块设备的故障而完全丢失，而且还能在设备被替换后将丢失的数据恢复到新的设备上。目前 MD 支持linear, multipath, raid0(stripping), raid1(mirror), raid4, raid5, raid6, raid10 等不同的冗余级别和级成方式，当然也能支持多个 RAID 陈列的层叠组成raid1 0, raid5 1 等类型的陈列。
 
 - **iSCSI**：Internet Small Computer System Interface，发音为/ˈаɪskʌzi/，Internet小型计算机系统接口，又称为IP-SAN，是一种基于因特网及 SCSI-3 协议下的存储技术，由 IETF 提出，并于2003年2月11日成为正式的标准。
 
