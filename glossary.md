@@ -54,4 +54,5 @@
 - **I3C**: I3C在I2C规格之上建立了功能超集（superset），支持额外的高资料传输速率（High Data Rate，HDR）模式，能媲美 SPI 接口技术；旧的 I2C 接口传感器能与I3C汇流排连结，不过要充分利用 I3C 功能集的优势，传感器端与主控制器端的硬件都需要更新。I3C 接口不只可供移动设备应用（该接口在这个领域将被称为 SenseWire），也能应用在各种嵌入式系统，提供更高的速度以及更高的能源使用效益；新接口规格能支持目前所有装置所采用的各种传感器。今天，光是智能手机可能就内含十数种传感器，挑战了 I2C 与 SPI 的极限；I3C 的开发为产业界带来了能支持各种不同类型传感器的单一接口技术。I3C 融合了 I2C（双线、简单）与 SPI（低功耗、高速度）的优势并加入了新功能，包括支持 in-band 中断、动态编址（dynamic addressing），以及更先进的电源管理，同时也向后相容 I2C 接口传感器：“内含众多传感器的系统若采用 I3C 接口，将可大幅降低成本与功耗；这类系统的扩展性也将优于采用 I2C 或 SPI 接口的系统。”
 - **HBA**： Host Bus Adapter，主机总线交换机。
 - **MPFS / MPFSi** 协议: 
-- **GFS**: Google File System，[Google](https://baike.baidu.com/item/Google)公司为了存储海量搜索数据而设计的专用[文件系统](https://baike.baidu.com/item/%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F)。
+- **GFS**: Google File System，[Google](https://baike.baidu.com/item/Google) 公司为了存储海量搜索数据而设计的专用[文件系统](https://baike.baidu.com/item/%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F)。
+- **RocksDB**：RocksDB 是 facebook 开源的 NoSQL 存储系统，其设计是基于 Google 开源的 LevelDB，优化了LevelDB 中存在的一些问题，号称性能比 LevelDB 强，其设计跟 LevelDB 极其类似。RocksDB 也包括了内存memtable, LRUcache，磁盘上的 sstable, operation log 等等。 https://en.wikipedia.org/wiki/RocksDB
