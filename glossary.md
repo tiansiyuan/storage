@@ -56,3 +56,5 @@
 - **MPFS / MPFSi** 协议: 
 - **GFS**: Google File System，[Google](https://baike.baidu.com/item/Google) 公司为了存储海量搜索数据而设计的专用[文件系统](https://baike.baidu.com/item/%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F)。
 - **RocksDB**：RocksDB 是 facebook 开源的 NoSQL 存储系统，其设计是基于 Google 开源的 LevelDB，优化了LevelDB 中存在的一些问题，号称性能比 LevelDB 强，其设计跟 LevelDB 极其类似。RocksDB 也包括了内存memtable, LRUcache，磁盘上的 sstable, operation log 等等。 https://en.wikipedia.org/wiki/RocksDB
+- **etcd**: etcd 是一个应用在分布式环境下的 key/value 存储服务。利用 etcd 的特性，应用程序可以在集群中共享信息、配置或作服务发现，etcd 会在集群的各个节点中复制这些数据并保证这些数据始终正确。
+- **raft**: 
